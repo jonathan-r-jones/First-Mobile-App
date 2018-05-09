@@ -7,10 +7,12 @@
     <ContentPage.Content>
         <StackLayout>
             <Label 
-                Text="Hello World May-9-2018" />
+                Text="Hello World May-9-2018" 
+                FontSize="Micro"/>
             <Label 
-                Text="Second Line" 
-                FontSize="Large" />
+                Text="Tanya sucks at Splendor." 
+                FontSize="Large"
+                FontAttributes="Bold"/>
         </StackLayout>
     </ContentPage.Content>
 
