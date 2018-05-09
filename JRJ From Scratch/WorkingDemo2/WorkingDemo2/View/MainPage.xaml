@@ -4,8 +4,14 @@
              xmlns:local="clr-namespace:WorkingDemo2"
              x:Class="WorkingDemo2.MainPage">
 
-	<Label Text="Welcome to Xamarin.Forms Second try on May-9-2018!" 
-           VerticalOptions="Center" 
-           HorizontalOptions="Center" />
+    <ContentPage.Content>
+        <StackLayout>
+            <Label 
+                Text="Hello World May-9-2018" />
+            <Label 
+                Text="Second Line" 
+                FontSize="Large" />
+        </StackLayout>
+    </ContentPage.Content>
 
 </ContentPage>
