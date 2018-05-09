@@ -13,6 +13,7 @@
                 Text="Tanya sucks at Splendor." 
                 FontSize="Large"
                 FontAttributes="Bold"/>
+            <Button Text="Go to Page 2" Clicked="Button_Clicked"/>
         </StackLayout>
     </ContentPage.Content>
 
