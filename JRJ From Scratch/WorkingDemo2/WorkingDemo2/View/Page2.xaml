@@ -5,7 +5,7 @@
     <ContentPage.Content>
         <StackLayout 
             Padding="50">
-            <Label Text="Page 2"
+            <Label Text="Page 2 Tanya is great."
                    FontSize="50"/>
         </StackLayout>
     </ContentPage.Content>
