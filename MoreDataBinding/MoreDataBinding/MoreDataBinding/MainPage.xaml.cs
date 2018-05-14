@@ -5,16 +5,14 @@ using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 
-namespace WorkingDemoLayout
+namespace MoreDataBinding
 {
 	public partial class MainPage : ContentPage
 	{
-        MainPageViewModel vm;
 		public MainPage()
 		{
 			InitializeComponent();
-            vm = new MainPageViewModel();
-            BindingContext = vm;
+            BindingContext = new MainPageViewModel();
 		}
 	}
 }

@@ -20,13 +20,15 @@
                     Width="*"/>
             </Grid.ColumnDefinitions>
             <Label
-                Text="Upper Left"
+                Text="{Binding Prompt}"
                 Grid.Row="0"
-                Grid.Column="0"/>
+                Grid.Column="0"
+                HorizontalTextAlignment="End"/>
             <Label 
-                Text="Upper Right"
+                Text="{Binding Name}"
                 Grid.Row="0"
-                Grid.Column="1"/>
+                Grid.Column="1"
+                HorizontalTextAlignment="Start"/>
             <Label
                 Text="Lower Left"
                 Grid.Row="1"
