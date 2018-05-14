@@ -20,7 +20,7 @@
                     Width="*"/>
             </Grid.ColumnDefinitions>
             <Label
-                Text="Upper Leftqq2"
+                Text="Upper Left"
                 Grid.Row="0"
                 Grid.Column="0"/>
             <Label 
@@ -35,6 +35,41 @@
                 Text="Lower Right"
                 Grid.Row="1"
                 Grid.Column="1"/>
+        </Grid>
+        <Label
+            Text="------------------------------------"/>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition 
+                    Width="Auto"/>
+                <ColumnDefinition 
+                    Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition
+                    Height="*"/>
+                <RowDefinition
+                    Height="2*"/>
+                <RowDefinition
+                    Height="100"/>
+            </Grid.RowDefinitions>
+            <Label 
+                Text="Top Left" 
+                Grid.Row="0"
+                Grid.Column="0"/>
+            <Label 
+                Text="Twice as high" 
+                Grid.Row="1"
+                Grid.Column="0"/>
+            <Label 
+                Text="Upper Right" 
+                Grid.Row="0"
+                Grid.Column="1"/>
+            <Label 
+                Text="Row 3, very this time" 
+                Grid.Row="2"
+                Grid.Column="0"
+                Grid.ColumnSpan="2"/>
         </Grid>
     </StackLayout>
 </ContentPage>
