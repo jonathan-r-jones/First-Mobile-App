@@ -20,7 +20,7 @@
                     Width="*"/>
             </Grid.ColumnDefinitions>
             <Label
-                Text="Upper Leftqq"
+                Text="Upper Leftqq2"
                 Grid.Row="0"
                 Grid.Column="0"/>
             <Label 
